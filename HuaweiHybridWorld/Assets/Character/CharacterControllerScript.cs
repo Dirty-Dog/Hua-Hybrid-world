@@ -15,11 +15,15 @@ public class CharacterControllerScript : MonoBehaviour
     public float Gravity;
     public float JumpHeight;
 
+    public GameObject camrea;
+    public float camX,camY,Xsen,Ysen;
+
 
 
     public CharacterController controller;
     public Animator anim;
-    public FixedJoystick joystick;
+    public FixedJoystick joystick ;
+    public DynamicJoystick freeLookJoyStick;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +37,7 @@ public class CharacterControllerScript : MonoBehaviour
     void Update()
     {
         Move();
-
+        camRotation();
     }
 
     public void Move()
@@ -59,7 +63,14 @@ public class CharacterControllerScript : MonoBehaviour
 
 
     }
-   
+
+    public void camRotation()
+    {
+        camY +=freeLookJoyStick.Horizontal;
+        camX -= freeLookJoyStick.Vertical;
+        camrea.transform.rotation = Quaternion.Euler(new Vector3(camX*Xsen, camY*Ysen, 0));
+    }
+
 
     public void Jump()
     {
