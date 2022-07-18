@@ -802,6 +802,7 @@ MonoBehaviour:
   Gravity: 0
   JumpHeight: 0
   camrea: {fileID: 1798770335}
+  playerTransform: {fileID: 1750952634}
   camX: 0
   camY: 0
   Xsen: 0.1

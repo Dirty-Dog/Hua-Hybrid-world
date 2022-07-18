@@ -16,6 +16,7 @@ public class CharacterControllerScript : MonoBehaviour
     public float JumpHeight;
 
     public GameObject camrea;
+    public Transform playerTransform;
     public float camX,camY,Xsen,Ysen;
 
 
@@ -68,7 +69,11 @@ public class CharacterControllerScript : MonoBehaviour
     {
         camY +=freeLookJoyStick.Horizontal;
         camX -= freeLookJoyStick.Vertical;
-        camrea.transform.rotation = Quaternion.Euler(new Vector3(camX*Xsen, camY*Ysen, 0));
+        this.transform.rotation = Quaternion.Euler(new Vector3(0, camY * Ysen, 0));
+        camrea.transform.rotation = Quaternion.Euler(new Vector3(camX * Xsen, 0, 0));
+        camrea.transform.LookAt(playerTransform);
+        
+        
     }
 
 
