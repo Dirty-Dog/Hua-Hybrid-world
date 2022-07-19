@@ -54,8 +54,26 @@ public class CharacterControllerScript : MonoBehaviour
         MoveDirection = transform.TransformDirection(MoveDirection);
 
         MoveDirection *= MoveSpeed;
-        //===========================================================
+        
+        if (joystick.Vertical > 0)
+        {
+            anim.SetFloat("Speed", 2, 0.05f, Time.deltaTime);
+        }
 
+        else if (joystick.Vertical < 0)
+        {
+            anim.SetFloat("Speed", 0, 0.05f, Time.deltaTime);
+        }
+
+        else if (joystick.Vertical == 0)
+        {
+            anim.SetFloat("Speed", 1, 0.05f, Time.deltaTime);
+        }
+
+        else
+        {
+            anim.SetFloat("Speed", 0, 0.05f, Time.deltaTime);
+        }
        
 
         controller.Move(MoveDirection * Time.deltaTime);
