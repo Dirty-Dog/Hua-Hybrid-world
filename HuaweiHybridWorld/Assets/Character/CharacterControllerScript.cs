@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class CharacterControllerScript : MonoBehaviour
 {
@@ -26,19 +27,28 @@ public class CharacterControllerScript : MonoBehaviour
     public FixedJoystick joystick ;
     public DynamicJoystick freeLookJoyStick;
 
+
+
+
+    PhotonView view;
+
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
-        
+        view = GetComponent<PhotonView>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Move();
-        camRotation();
+        if (view.IsMine)
+        {
+            Move();
+            camRotation();
+        }
+        
     }
 
     public void Move()
@@ -95,11 +105,7 @@ public class CharacterControllerScript : MonoBehaviour
     }
 
 
-    public void Jump()
-    {
-        velocity.y = Mathf.Sqrt(JumpHeight * -2 * Gravity);
-        anim.SetTrigger("jump");
-    }
+    
    
 
 }
