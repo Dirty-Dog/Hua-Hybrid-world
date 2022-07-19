@@ -7,11 +7,7 @@ public class CharacterControllerScript : MonoBehaviour
     public float MoveSpeed;
     public Vector3 MoveDirection;
     public Vector3 velocity;
-    public float mouseX;
-    public float mouseY;
-    public float RotateSensitivity;
-    private float xRotation = 0f;
-
+    
 
     public bool IsGrounded;
     public float GroundCheckDistance;
@@ -19,12 +15,16 @@ public class CharacterControllerScript : MonoBehaviour
     public float Gravity;
     public float JumpHeight;
 
+    public GameObject camrea;
+    public Transform playerTransform;
+    public float camX,camY,Xsen,Ysen;
+
 
 
     public CharacterController controller;
     public Animator anim;
-    public FixedJoystick joystick;
-    public Transform playerBody;
+    public FixedJoystick joystick ;
+    public DynamicJoystick freeLookJoyStick;
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +38,7 @@ public class CharacterControllerScript : MonoBehaviour
     void Update()
     {
         Move();
-
+        camRotation();
     }
 
     public void Move()
@@ -56,20 +56,7 @@ public class CharacterControllerScript : MonoBehaviour
         MoveDirection *= MoveSpeed;
         //===========================================================
 
-        if(Input.touchCount>0)
-        {   
-            if(Input.GetTouch(0).phase == TouchPhase.Moved)
-            {
-                mouseX = Input.GetTouch(0).deltaPosition.x;
-                mouseY = Input.GetTouch(0).deltaPosition.y;
-            } 
-        }
-
-        xRotation -= mouseY;
-
-        xRotation = Mathf.Clamp(xRotation, -50f, 70f);
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        playerBody.Rotate(Vector3.up * mouseX);
+       
 
         controller.Move(MoveDirection * Time.deltaTime);
         velocity.y += Gravity * Time.deltaTime;
@@ -77,7 +64,18 @@ public class CharacterControllerScript : MonoBehaviour
 
 
     }
-   
+
+    public void camRotation()
+    {
+        camY +=freeLookJoyStick.Horizontal;
+        camX -= freeLookJoyStick.Vertical;
+        this.transform.rotation = Quaternion.Euler(new Vector3(0, camY * Ysen, 0));
+        camrea.transform.rotation = Quaternion.Euler(new Vector3(camX * Xsen, 0, 0));
+        camrea.transform.LookAt(playerTransform);
+        
+        
+    }
+
 
     public void Jump()
     {

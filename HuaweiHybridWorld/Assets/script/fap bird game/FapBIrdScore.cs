@@ -12,7 +12,7 @@ public class FapBIrdScore : MonoBehaviour
         gameObject2 = GameObject.Find("GameManager");
         Score =gameObject2.GetComponent<FapBirdGameManager>();
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerExit(Collider other)
     {
         Score.scoreInc();
     }
