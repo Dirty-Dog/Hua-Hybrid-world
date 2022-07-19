@@ -17,6 +17,7 @@ public class CharacterControllerScript : MonoBehaviour
     public float JumpHeight;
 
     public GameObject camrea;
+    public GameObject canvas;
     public Transform playerTransform;
     public float camX,camY,Xsen,Ysen;
 
@@ -45,6 +46,8 @@ public class CharacterControllerScript : MonoBehaviour
     {
         if (view.IsMine)
         {
+            camrea.SetActive(true);
+            canvas.SetActive(true);
             Move();
             camRotation();
         }

@@ -1264,7 +1264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   createInput: {fileID: 1920353278}
-  joinInput: {fileID: 0}
+  joinInput: {fileID: 1120593584}
 --- !u!4 &1303527706
 Transform:
   m_ObjectHideFlags: 0
