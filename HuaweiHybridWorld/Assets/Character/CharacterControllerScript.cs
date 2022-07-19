@@ -50,7 +50,7 @@ public class CharacterControllerScript : MonoBehaviour
         }
 
         
-        MoveDirection = new Vector3(joystick.Horizontal, 0, joystick.Vertical);
+        MoveDirection = new Vector3(joystick.Horizontal*0.5f, 0, joystick.Vertical);
         MoveDirection = transform.TransformDirection(MoveDirection);
 
         MoveDirection *= MoveSpeed;

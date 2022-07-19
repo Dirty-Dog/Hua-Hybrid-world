@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Multiplayer/LoadingScene.unity
+    guid: 47e3063c0b3d74d4bab30a4349dc2a73
+  - enabled: 1
+    path: Assets/Multiplayer/MultiplayerLobbyCreate.unity
+    guid: 29d8c876bad3a674a9c6547fa39a23ee
+  - enabled: 1
+    path: Assets/Aakash/Lobby.unity
+    guid: c97a1de0c25c5754dab17f63579508d2
   m_configObjects: {}
