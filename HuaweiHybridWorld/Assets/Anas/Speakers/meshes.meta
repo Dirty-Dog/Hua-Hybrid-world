@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:HuaweiHybridWorld/Assets/Anas/Speakers/meshes.meta
 guid: 4fae0b0c917580b44ab963cad110a405
+========
+guid: ce21da68d30028540bcc4ed4641765c6
+>>>>>>>> 580fbf0fbd91254b252885f72253c7a03cbdcc0f:HuaweiHybridWorld/Assets/Anas/Speakers/materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
