@@ -13,7 +13,12 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
 
     public void CreateRoom()
     {
-        PhotonNetwork.CreateRoom(createInput.text);
+        Photon.Realtime.RoomOptions ro = new Photon.Realtime.RoomOptions() {MaxPlayers = 5 };
+        if (createInput.text.Length >= 1)
+        {
+            PhotonNetwork.CreateRoom(createInput.text, ro );
+        }
+        
         
 
     }
