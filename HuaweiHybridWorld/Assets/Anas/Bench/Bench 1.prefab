@@ -297,6 +297,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1117894420972137923}
+  - component: {fileID: 2505920292889744529}
+  - component: {fileID: 8086547629823327007}
   m_Layer: 0
   m_Name: Bench 1
   m_TagString: Untagged
@@ -319,6 +321,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2505920292889744529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901456672707796386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 107.37232, y: 7.057703, z: 40.361534}
+  m_Center: {x: 2.7400615, y: 16.30351, z: -6.241354}
+--- !u!65 &8086547629823327007
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901456672707796386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 105.86152, y: 43.428066, z: 10.414744}
+  m_Center: {x: 0.7608732, y: 21.21403, z: -32.488056}
 --- !u!1 &7603275444855928147
 GameObject:
   m_ObjectHideFlags: 0

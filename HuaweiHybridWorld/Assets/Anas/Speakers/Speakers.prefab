@@ -122,6 +122,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8619865416770361414}
+  - component: {fileID: 7428586842674375779}
+  - component: {fileID: 3205507168683027666}
   m_Layer: 0
   m_Name: Speakers
   m_TagString: Untagged
@@ -136,14 +138,40 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3841165238364842681}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.0007602897, z: -0, w: 0.9999997}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3043703284002214571}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.087, z: 0}
+--- !u!65 &7428586842674375779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841165238364842681}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5790753, y: 1.8104337, z: 1.5445573}
+  m_Center: {x: 0.0019343793, y: 0.95, z: -0.33471215}
+--- !u!65 &3205507168683027666
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841165238364842681}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5790753, y: 1.8104337, z: 1.5445573}
+  m_Center: {x: 0.0019343793, y: 0.91, z: 2.66}
 --- !u!1 &4693359751770509450
 GameObject:
   m_ObjectHideFlags: 0

@@ -202,7 +202,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 698105d2fff386b4cafbf8fc5e89d257, type: 2}
+  - {fileID: 2100000, guid: 16a555b913fb066479bbe3fb386b1c23, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -409,6 +409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3721117023736854448}
+  - component: {fileID: 1331399185555272342}
   m_Layer: 0
   m_Name: BillBoard
   m_TagString: Untagged
@@ -431,3 +432,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1331399185555272342
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8994543036627322530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.15434548
+  m_Height: 1.3044637
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5948761, z: 0.003894478}

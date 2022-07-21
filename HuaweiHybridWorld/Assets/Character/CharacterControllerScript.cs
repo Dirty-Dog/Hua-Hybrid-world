@@ -26,8 +26,8 @@ public class CharacterControllerScript : MonoBehaviour
     public CharacterController controller;
     public Animator anim;
     public FixedJoystick joystick ;
-    public DynamicJoystick freeLookJoyStick;
-
+    public FixedJoystick freeLookJoyStick;
+    public float xclampped;
 
 
 
@@ -49,9 +49,18 @@ public class CharacterControllerScript : MonoBehaviour
             camrea.SetActive(true);
             canvas.SetActive(true);
             Move();
-            camRotation();
+            //camRotation();
         }
         
+    }
+
+    void LateUpdate()
+    {
+        if (view.IsMine)
+        {
+            camRotation();
+        }
+
     }
 
     public void Move()
@@ -100,9 +109,28 @@ public class CharacterControllerScript : MonoBehaviour
     {
         camY +=freeLookJoyStick.Horizontal;
         camX -= freeLookJoyStick.Vertical;
+        if(camX > 10)
+        {
+            camX = 10;
+        }
+        if (camX < -10)
+        {
+            camX = -10;
+        }
+        if (camY > 1000)
+        {
+            camY =0;
+        }
+        if (camY < -1000)
+        {
+            camY =0;
+        }
+
+        xclampped = Mathf.Clamp(camX, -10, 10);
         this.transform.rotation = Quaternion.Euler(new Vector3(0, camY * Ysen, 0));
-        camrea.transform.rotation = Quaternion.Euler(new Vector3(camX * Xsen, 0, 0));
-        camrea.transform.LookAt(playerTransform);
+
+        camrea.transform.rotation = Quaternion.Euler(new Vector3(xclampped * Xsen, camY * Ysen, 0));
+        
         
         
     }
