@@ -2254,6 +2254,11 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3251429623259699689, guid: 82df3d0b23221874cbd68491203398fa,
+        type: 3}
+      propertyPath: sceneViewId
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3607097710038953108, guid: 82df3d0b23221874cbd68491203398fa,
         type: 3}
       propertyPath: joystick
