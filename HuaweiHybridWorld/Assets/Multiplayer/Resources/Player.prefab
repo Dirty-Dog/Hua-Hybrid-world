@@ -82,8 +82,8 @@ MonoBehaviour:
   JumpHeight: 0
   camrea: {fileID: 3607097710082345139}
   canvas: {fileID: 1262552956807832937}
-  speaker: {fileID: 0}
-  voicemanager: {fileID: 0}
+  speaker: {fileID: 5706747245681059856}
+  voicemanager: {fileID: 8947100121371146064}
   playerTransform: {fileID: 3607097710038953110}
   camX: 0
   camY: 0
