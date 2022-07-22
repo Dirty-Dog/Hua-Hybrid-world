@@ -18,6 +18,8 @@ public class CharacterControllerScript : MonoBehaviour
 
     public GameObject camrea;
     public GameObject canvas;
+    public GameObject speaker;
+    public GameObject voicemanager;
     public Transform playerTransform;
     public float camX,camY,Xsen,Ysen;
 
@@ -39,6 +41,15 @@ public class CharacterControllerScript : MonoBehaviour
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
         view = GetComponent<PhotonView>();
+
+        if (view.IsMine)
+        {
+            camrea.SetActive(true);
+            canvas.SetActive(true);
+            speaker.SetActive(true);
+            voicemanager.SetActive(true);
+        }
+            
     }
 
     // Update is called once per frame
@@ -46,8 +57,7 @@ public class CharacterControllerScript : MonoBehaviour
     {
         if (view.IsMine)
         {
-            camrea.SetActive(true);
-            canvas.SetActive(true);
+            
             Move();
             //camRotation();
         }
