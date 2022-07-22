@@ -5,21 +5,18 @@ using Photon.Pun;
 public class Emotes : MonoBehaviour
 {
 
-    PhotonView view;
+    [SerializeField] private PhotonView view;
     [SerializeField] private CharacterControllerScript animator;
+    
 
-
-    // Update is called once per frame
-    void Update()
+    public void chagneEmote(int a)
     {
-        if(view.IsMine)
+
+        if (view.IsMine)
         {
-            animator.anim.SetTrigger("");
+            string animtionName = a.ToString();
+            animator.anim.SetTrigger(animtionName);
+            Debug.Log(animtionName);
         }
-    }
-
-    private void chagneEmote()
-    {
-            
     }
 }
