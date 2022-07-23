@@ -16,4 +16,5 @@ public class FapBIrdScore : MonoBehaviour
     {
         Score.scoreInc();
     }
+
 }
