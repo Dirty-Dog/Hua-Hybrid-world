@@ -16,6 +16,4 @@ public class colliderScript : MonoBehaviour
     {
         gameManager.gameOver();
     }
-
-    
 }
