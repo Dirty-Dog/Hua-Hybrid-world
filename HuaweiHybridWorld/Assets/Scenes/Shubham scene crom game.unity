@@ -354,17 +354,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b3be40ab71596849bc566dec1d10daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 5
+  maxTime: 1.7
   timer: 10
   height: 0
-  obstracleDestroy: 20
+  obstracleDestroy: 3.5
   obstracle:
-  - {fileID: 4605336013093914813, guid: 5cffa6c007f7a214d8601533d5c01fb1, type: 3}
-  - {fileID: 3498629178434372303, guid: 4ec9409ed2082af46bf158336932ec19, type: 3}
-  - {fileID: 5050784059791985703, guid: 222fd85be602c634bae48be2303a2c00, type: 3}
-  - {fileID: 4113682549388570313, guid: e6be8ea55814fd446acca1deadb76da1, type: 3}
-  - {fileID: 8385013993474951772, guid: bc7c0225d248280419d311a52ef0f62c, type: 3}
-  - {fileID: 6107005746171232932, guid: 83b9324ed4507394ca57809235a01a4b, type: 3}
+  - {fileID: 3383525387121082401, guid: c67cd6f888af088449f55b6ba183adb8, type: 3}
 --- !u!1 &1528691395
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,6 +403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455b574e0c78d6c498ec2790eb8e9ec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cromScore: 0
+  gameOverCanvas: {fileID: 0}
 --- !u!1 &2019329997
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,7 +502,6 @@ GameObject:
   - component: {fileID: 2114376721}
   - component: {fileID: 2114376720}
   - component: {fileID: 2114376725}
-  - component: {fileID: 2114376726}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -624,15 +620,3 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
---- !u!114 &2114376726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114376719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0ca94757f6813a4580722d22721234a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
