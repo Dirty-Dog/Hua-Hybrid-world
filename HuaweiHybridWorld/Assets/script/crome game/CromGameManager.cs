@@ -11,6 +11,7 @@ public class CromGameManager : MonoBehaviour
     public Text cromScoreText;
     private void Start()
     {
+        Time.timeScale = 1;
         cromScore = 0;
         gameOverCanvas.SetActive(false);
     }
