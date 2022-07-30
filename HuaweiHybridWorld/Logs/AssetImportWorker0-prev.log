@@ -1,130 +1,126 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1826; Version 2009; 64bit' Language: 'en' Physical Memory: 16170 MB
+OS: 'Windows 10 Home Single Language; OS build 22000.795; Version 2009; 64bit' Language: 'en' Physical Memory: 16155 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+D:\unity projects\New folder\2020.3.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-X:/GitHubProjects/Hua-Hybrid-world/HuaweiHybridWorld
+D:/GitHub_Projects/Hua-Hybrid-world/HuaweiHybridWorld
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50616
-Successfully changed project path to: X:/GitHubProjects/Hua-Hybrid-world/HuaweiHybridWorld
-X:/GitHubProjects/Hua-Hybrid-world/HuaweiHybridWorld
+62249
+Successfully changed project path to: D:/GitHub_Projects/Hua-Hybrid-world/HuaweiHybridWorld
+D:/GitHub_Projects/Hua-Hybrid-world/HuaweiHybridWorld
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.33 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 53.94 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path X:/GitHubProjects/Hua-Hybrid-world/HuaweiHybridWorld/Assets
+[Subsystems] Discovering subsystems at path D:/unity projects/New folder/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub_Projects/Hua-Hybrid-world/HuaweiHybridWorld/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
     Vendor:   
     VRAM:     3962 MB
-    Driver:   30.0.15.1278
+    Driver:   31.0.15.1659
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Mono path[0] = 'D:/unity projects/New folder/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity projects/New folder/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity projects/New folder/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.003942 seconds.
-Native extension for Lumin target not found
+Register platform support module: D:/unity projects/New folder/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity projects/New folder/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001021 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.41 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 46.55 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Mono: successfully reloaded assembly
-- Completed reload, in  2.868 seconds
+- Completed reload, in  1.827 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2869ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (1827ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (449ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (172ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013372 seconds.
+Registered in 0.007071 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.80 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 46.02 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.488 seconds
+- Completed reload, in  1.211 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1489ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (1212ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1267ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (962ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
+			SetupTypeCache (334ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (669ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (361ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (515ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (244ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.60 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.3 MB.
-System memory in use after: 164.4 MB.
+System memory in use before: 164.6 MB.
+System memory in use after: 164.6 MB.
 
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2635.
-Total: 3.499600 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.112400 ms MarkObjects: 3.088300 ms  DeleteObjects: 0.092100 ms)
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2632.
+Total: 2.753700 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.424500 ms  DeleteObjects: 0.076300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -139,68 +135,1129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/AnuragTesting.unity
-  artifactKey: Guid(7b69d28cd6be89041901406698725667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AnuragTesting.unity using Guid(7b69d28cd6be89041901406698725667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70eaf541bc999e683eb9d255f79e3126') in 0.011791 seconds 
-  Import took 0.015053 seconds .
+  path: Assets/Anas/candy_shop
+  artifactKey: Guid(bcdcaabced3170647ac48b52bcf0bd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/candy_shop using Guid(bcdcaabced3170647ac48b52bcf0bd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7acf946b6c28fd7c37a6ff3a3c652d') in 0.019876 seconds 
+  Import took 0.022570 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012583 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1133ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (962ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (471ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (380ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2087 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.9 MB.
-System memory in use after: 161.0 MB.
+Received Import Request.
+  Time since last request: 0.000747 seconds.
+  path: Assets/Anas/candy_shop/Candy Shop.prefab
+  artifactKey: Guid(c2676a4038cc1c64b97fc0652722c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/candy_shop/Candy Shop.prefab using Guid(c2676a4038cc1c64b97fc0652722c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c1531095ebf7b1a891f0e11b64a075') in 0.259630 seconds 
+  Import took 0.262487 seconds .
 
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2638.
-Total: 2.932600 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.077200 ms MarkObjects: 2.635400 ms  DeleteObjects: 0.048800 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 46.523235 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Plants/PT_Grass_02.prefab
+  artifactKey: Guid(82b2c64f4e2d5264bbf0f909cadda2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Plants/PT_Grass_02.prefab using Guid(82b2c64f4e2d5264bbf0f909cadda2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db20ad129531933e0c1ac0cc0b4cba63') in 0.128755 seconds 
+  Import took 0.136341 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Flowers/PT_Poppy_02.prefab
+  artifactKey: Guid(2b66385ecc3e6b34e82ee78058e90aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Flowers/PT_Poppy_02.prefab using Guid(2b66385ecc3e6b34e82ee78058e90aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b6212694de06615bd104c474358c2b') in 0.170116 seconds 
+  Import took 0.172832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab
+  artifactKey: Guid(a2e14d87834a62041a457f0dcc62b265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab using Guid(a2e14d87834a62041a457f0dcc62b265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0371ce6c5b4dea2499f399001a49306d') in 0.099754 seconds 
+  Import took 0.102502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab
+  artifactKey: Guid(20613689bafb4544cb770f64d1a03714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab using Guid(20613689bafb4544cb770f64d1a03714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccc7c8e817b630244fd2326342f5b39') in 0.017798 seconds 
+  Import took 0.020579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Trees/PT_Fruit_Tree_01_plums.prefab
+  artifactKey: Guid(c80fbf850ad97a34694544deb65b7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Trees/PT_Fruit_Tree_01_plums.prefab using Guid(c80fbf850ad97a34694544deb65b7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab1728f08213503f0dd074224028b40') in 0.014152 seconds 
+  Import took 0.017032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab
+  artifactKey: Guid(ee612942e9d74fe4baea785dfe2eaa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab using Guid(ee612942e9d74fe4baea785dfe2eaa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03c0533fdfeb8ae05e7863159719330') in 0.027401 seconds 
+  Import took 0.030394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.417012 seconds.
+  path: Assets/Anas/Bench/Bench 1.prefab
+  artifactKey: Guid(ea36f88e1a7f27c4b94e37469bfa102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/Bench/Bench 1.prefab using Guid(ea36f88e1a7f27c4b94e37469bfa102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00de57ec315defd77c61d9da42acf35b') in 0.104761 seconds 
+  Import took 0.108108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Anas/Bench/Bench.prefab
+  artifactKey: Guid(192e5af96e7a95042a6c4505d06e184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/Bench/Bench.prefab using Guid(192e5af96e7a95042a6c4505d06e184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787748741f1954b50f2c4ef657798568') in 0.010473 seconds 
+  Import took 0.013247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.459354 seconds.
+  path: Assets/Anas/Bill Board/BillBoard.prefab
+  artifactKey: Guid(19686ef30b38a61469bc039f0d162fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/Bill Board/BillBoard.prefab using Guid(19686ef30b38a61469bc039f0d162fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658df9d4a24967b34012d7f75b0cd1c5') in 0.129674 seconds 
+  Import took 0.132956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.490155 seconds.
+  path: Assets/Anas/building/Building.prefab
+  artifactKey: Guid(cb13ee2d805593444927d9301d8417c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/building/Building.prefab using Guid(cb13ee2d805593444927d9301d8417c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b1dc7e06b679050c63637264bd058b') in 0.022028 seconds 
+  Import took 0.025684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.185496 seconds.
+  path: Assets/Anas/Dome Tent/Tent.prefab
+  artifactKey: Guid(818dd8b7fa6c23d4ebb0e65fcc32910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/Dome Tent/Tent.prefab using Guid(818dd8b7fa6c23d4ebb0e65fcc32910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66fd351c54547d10de2f867f5ba8e15') in 0.065185 seconds 
+  Import took 0.068261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.215418 seconds.
+  path: Assets/Anas/Cone/Cone 1.prefab
+  artifactKey: Guid(50e6eb872d430ca4cb09ec599edf9269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/Cone/Cone 1.prefab using Guid(50e6eb872d430ca4cb09ec599edf9269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d69ed3f979d5897df0cdab69a73b78') in 0.060841 seconds 
+  Import took 0.064553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Anas/Cone/Cone.prefab
+  artifactKey: Guid(8211d7e5751d6214f9530828656cf1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/Cone/Cone.prefab using Guid(8211d7e5751d6214f9530828656cf1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9b7e40ff79c14c065296ef3a91c187') in 0.014972 seconds 
+  Import took 0.018301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.185432 seconds.
+  path: Assets/Anas/low poly cafe/Cafe.prefab
+  artifactKey: Guid(52ff0c65436ef8b4c9c9675be9a5d2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly cafe/Cafe.prefab using Guid(52ff0c65436ef8b4c9c9675be9a5d2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9910b3d30e9341eba6d835c0f71000fd') in 0.013879 seconds 
+  Import took 0.017160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.964017 seconds.
+  path: Assets/Anas/low poly candy shop/Candy Shop 2.prefab
+  artifactKey: Guid(4c8a01d3c6364004fa170d1da742fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly candy shop/Candy Shop 2.prefab using Guid(4c8a01d3c6364004fa170d1da742fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72044070ca828affff3272d0ab77960e') in 0.017063 seconds 
+  Import took 0.020293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.610516 seconds.
+  path: Assets/Anas/low poly coffee shop/Coffee shop.prefab
+  artifactKey: Guid(52e59aca7a242014eaec1df31af80710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly coffee shop/Coffee shop.prefab using Guid(52e59aca7a242014eaec1df31af80710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060fceecaf56a9df0a2c02e84c0bb911') in 0.011588 seconds 
+  Import took 0.014634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.404985 seconds.
+  path: Assets/Anas/low poly icecream shop/Ice Cream Shop.prefab
+  artifactKey: Guid(b7444eeb7a2389a4bb4aa0c72cc8c403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/Ice Cream Shop.prefab using Guid(b7444eeb7a2389a4bb4aa0c72cc8c403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07910259a5bcad5dfd5d8ecdbdc9d3d') in 0.214589 seconds 
+  Import took 0.219185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.754606 seconds.
+  path: Assets/Anas/low poly coffee shop/textures
+  artifactKey: Guid(201031fec0ca300449495ac756076a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly coffee shop/textures using Guid(201031fec0ca300449495ac756076a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b44fbb53f4dcb2abc7d7b35915b0b4') in 0.006694 seconds 
+  Import took 0.009717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120021 seconds.
+  path: Assets/Anas/low poly coffee shop/textures/colors_baseColor_0.png
+  artifactKey: Guid(c9f9fc82f2503d542b6dcbcc9e01ae0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly coffee shop/textures/colors_baseColor_0.png using Guid(c9f9fc82f2503d542b6dcbcc9e01ae0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6c88fc41b77262737fae983ed8c992') in 0.074865 seconds 
+  Import took 0.078585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.555071 seconds.
+  path: Assets/Anas/low poly coffee shop/meshes/Object_0_0_0.asset
+  artifactKey: Guid(4c9c096c56c771548af9bdc1c135bad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly coffee shop/meshes/Object_0_0_0.asset using Guid(4c9c096c56c771548af9bdc1c135bad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4015302c6828f1537c624f5e2c1a7db1') in 0.191317 seconds 
+  Import took 0.194365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.161156 seconds.
+  path: Assets/Anas/low poly coffee shop/materials/colors_0.mat
+  artifactKey: Guid(fb492719379b9604aa6bd59dee277e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly coffee shop/materials/colors_0.mat using Guid(fb492719379b9604aa6bd59dee277e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dc0b7d3bd0b55d8d94aa8a449e940d') in 0.021220 seconds 
+  Import took 0.024244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.292476 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes
+  artifactKey: Guid(c28cd0beb841b9440b6f7804085de4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes using Guid(c28cd0beb841b9440b6f7804085de4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7b93363e7140dbd44fda11526df707') in 0.008347 seconds 
+  Import took 0.012130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105142 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.001_Strawberry_0_7_0.asset
+  artifactKey: Guid(1160de7cdd87fe54f9e0473a25ef0243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.001_Strawberry_0_7_0.asset using Guid(1160de7cdd87fe54f9e0473a25ef0243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ef2da409e3eda300f63c8d3c9d9802') in 0.009819 seconds 
+  Import took 0.012681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.003_Mint_0_39_0.asset
+  artifactKey: Guid(db5ba52ca28879049a0b86a72851b7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.003_Mint_0_39_0.asset using Guid(db5ba52ca28879049a0b86a72851b7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d400ae82326e25abeafabad870cf13b') in 0.105860 seconds 
+  Import took 0.108544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.001_Walls.001_0_1_0.asset
+  artifactKey: Guid(2a7858eef67ae214ebfae1a1fd495816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.001_Walls.001_0_1_0.asset using Guid(2a7858eef67ae214ebfae1a1fd495816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44c885c456c7ede362afaf87976fcfa') in 0.025257 seconds 
+  Import took 0.027920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Lemon_0_13_0.asset
+  artifactKey: Guid(6117a8538142ae5468b9509b4cf82da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Lemon_0_13_0.asset using Guid(6117a8538142ae5468b9509b4cf82da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a1151cb1e964220bf1afa4ee0475dd') in 0.009391 seconds 
+  Import took 0.012121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle_Strawberry_0_6_0.asset
+  artifactKey: Guid(53e9ab56a8dc10344b23939cb2c10cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle_Strawberry_0_6_0.asset using Guid(53e9ab56a8dc10344b23939cb2c10cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2763ab3a5f22d5b046b5c5fec433f2c') in 0.009482 seconds 
+  Import took 0.012347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.003_Cone_0_30_0.asset
+  artifactKey: Guid(cf2f27db8ef680f4fb6bbf3417587e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.003_Cone_0_30_0.asset using Guid(cf2f27db8ef680f4fb6bbf3417587e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd116824ec6ab0a7c1b97d79e081fab') in 0.008951 seconds 
+  Import took 0.011672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Caramel_0_15_0.asset
+  artifactKey: Guid(9b81753b08d30c54c966e1b93353c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Caramel_0_15_0.asset using Guid(9b81753b08d30c54c966e1b93353c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3733ff69459d8a8717f5a2780b850b') in 0.010628 seconds 
+  Import took 0.013900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.009_Cone_0_51_0.asset
+  artifactKey: Guid(da6a53444bbe0a24eb3f8320ed51d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.009_Cone_0_51_0.asset using Guid(da6a53444bbe0a24eb3f8320ed51d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcaa65628fa47f843ae83df6867e29d') in 0.009663 seconds 
+  Import took 0.013275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.008_Material_0_54_0.asset
+  artifactKey: Guid(7fad8bb20c16b6d4489db393fa9eb5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.008_Material_0_54_0.asset using Guid(7fad8bb20c16b6d4489db393fa9eb5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd67a8c2bc9c1a028b1133dc592abab7') in 0.009300 seconds 
+  Import took 0.012219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Blue_0_21_0.asset
+  artifactKey: Guid(b7160adce3355234789717b95d35399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Blue_0_21_0.asset using Guid(b7160adce3355234789717b95d35399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fee892a9593699a2d7b5468e9bcb312') in 0.008446 seconds 
+  Import took 0.011251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.010_Material_0_78_0.asset
+  artifactKey: Guid(db51c6511670e4d49bccc702ab20f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.010_Material_0_78_0.asset using Guid(db51c6511670e4d49bccc702ab20f8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4117237e1c110dbe1bf371a0ae63a36c') in 0.009140 seconds 
+  Import took 0.011964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.003_Vanilla_0_33_0.asset
+  artifactKey: Guid(1f5f1e3df9382ff4089fa6da4f1ea7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.003_Vanilla_0_33_0.asset using Guid(1f5f1e3df9382ff4089fa6da4f1ea7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef9c7218a79a94dc1d52a8023461ef6') in 0.010793 seconds 
+  Import took 0.014874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.003_Glass.001_0_31_0.asset
+  artifactKey: Guid(470a43312f2c944468fa14c77ef1a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.003_Glass.001_0_31_0.asset using Guid(470a43312f2c944468fa14c77ef1a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24297d4f509a574916301e4863ba906f') in 0.009923 seconds 
+  Import took 0.012927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.004_Cone_0_53_0.asset
+  artifactKey: Guid(d555f25868a6bb04fa97039c0a54b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.004_Cone_0_53_0.asset using Guid(d555f25868a6bb04fa97039c0a54b321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a9705e6ec567614de7dadb9eb0844a') in 0.009655 seconds 
+  Import took 0.012589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.008_Chocolate_0_55_0.asset
+  artifactKey: Guid(51f450d5c1ecd8c48ae0f753fb6ea95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.008_Chocolate_0_55_0.asset using Guid(51f450d5c1ecd8c48ae0f753fb6ea95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b04a36d6d97e7587df18e5d2a1e6927') in 0.008631 seconds 
+  Import took 0.011488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Strawberry_0_11_0.asset
+  artifactKey: Guid(dfe5e0159060df048b91c29faaed2e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Strawberry_0_11_0.asset using Guid(dfe5e0159060df048b91c29faaed2e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8592c77f7f5e4a10f486947556fdca') in 0.008957 seconds 
+  Import took 0.011763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.001_Cone_0_25_0.asset
+  artifactKey: Guid(1f0412650d16c33488a69743d9b9a036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.001_Cone_0_25_0.asset using Guid(1f0412650d16c33488a69743d9b9a036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0549ced78931f1a8996aef9ea384d75') in 0.008559 seconds 
+  Import took 0.011365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone_Cone_0_23_0.asset
+  artifactKey: Guid(f9acefad1ea86cb4285ef0d5757e4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone_Cone_0_23_0.asset using Guid(f9acefad1ea86cb4285ef0d5757e4e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978173a1ffa8c89f7642bb7744965b15') in 0.009055 seconds 
+  Import took 0.012737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.002_Strawberry_0_8_0.asset
+  artifactKey: Guid(a7426588e25a73842af806ba1d1bceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.002_Strawberry_0_8_0.asset using Guid(a7426588e25a73842af806ba1d1bceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6e50f1b6bd0153184b759477000b08') in 0.010077 seconds 
+  Import took 0.033259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.008_Material_0_76_0.asset
+  artifactKey: Guid(407e75ea72e912b4287bac046f7d375f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.008_Material_0_76_0.asset using Guid(407e75ea72e912b4287bac046f7d375f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea89708f6eebc8562e8c30fdcdc41270') in 0.009354 seconds 
+  Import took 0.012355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_idk another pink one_0_14_0.asset
+  artifactKey: Guid(e13b51998c5303142bf4f81e7cdb59b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_idk another pink one_0_14_0.asset using Guid(e13b51998c5303142bf4f81e7cdb59b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f2cd7427ff32d8938407ca7b97a586') in 0.008865 seconds 
+  Import took 0.011648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.003_Chocolate_0_38_0.asset
+  artifactKey: Guid(d735731abb6d0c542bd64d3d5edac022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.003_Chocolate_0_38_0.asset using Guid(d735731abb6d0c542bd64d3d5edac022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d5436e3a1de684d720507608444005') in 0.009197 seconds 
+  Import took 0.012174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.003_Mint_0_35_0.asset
+  artifactKey: Guid(0ca505467d18dec499a7bf76ac7ad007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.003_Mint_0_35_0.asset using Guid(0ca505467d18dec499a7bf76ac7ad007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993f503c68ec80fc6c93c0fdb3cce96e') in 0.022009 seconds 
+  Import took 0.024695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.007_Material.001_0_45_0.asset
+  artifactKey: Guid(705400dba486c6f4e8280776ff9ee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.007_Material.001_0_45_0.asset using Guid(705400dba486c6f4e8280776ff9ee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dde991c30c2d49ca8a28c8e39dfbb2d') in 0.009285 seconds 
+  Import took 0.012148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.003_Cherry_0_40_0.asset
+  artifactKey: Guid(7229efc2506379b44944e45d3c8794fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.003_Cherry_0_40_0.asset using Guid(7229efc2506379b44944e45d3c8794fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d90563f95510fe87923ed523559ec3') in 0.008989 seconds 
+  Import took 0.011698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone_Chocolate_0_24_0.asset
+  artifactKey: Guid(c43ea453cb2b6b44a876ff7224a20658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone_Chocolate_0_24_0.asset using Guid(c43ea453cb2b6b44a876ff7224a20658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bf4c4a09a354f0f5bcae65e926f3a9') in 0.009625 seconds 
+  Import took 0.012487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Chocolate_0_17_0.asset
+  artifactKey: Guid(94757a957ed177c45a1860f54b80a3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Chocolate_0_17_0.asset using Guid(94757a957ed177c45a1860f54b80a3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daba4984f02e13599726170a6c5e81ac') in 0.008875 seconds 
+  Import took 0.011621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.009_Cone_0_57_0.asset
+  artifactKey: Guid(87fae1ace998e8e47a9fd45c9ad3c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.009_Cone_0_57_0.asset using Guid(87fae1ace998e8e47a9fd45c9ad3c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334746c25c2b8b4f42bffa12fa158d87') in 0.011792 seconds 
+  Import took 0.014676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.002_Glass_0_4_0.asset
+  artifactKey: Guid(d4f0b0d79be86824a9bbc329ff87ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.002_Glass_0_4_0.asset using Guid(d4f0b0d79be86824a9bbc329ff87ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087eb613f51f161d9256386d4bc5ded2') in 0.008687 seconds 
+  Import took 0.011399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.005_Glass.001_0_70_0.asset
+  artifactKey: Guid(a93f895c5e1854244bba9b550748f91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.005_Glass.001_0_70_0.asset using Guid(a93f895c5e1854244bba9b550748f91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd1e6a9d4d33685e17d2d8f60fe2b42') in 0.009372 seconds 
+  Import took 0.012184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.009_Material_0_56_0.asset
+  artifactKey: Guid(90a3cd4d7fa75434b9e1ef0b1633d101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.009_Material_0_56_0.asset using Guid(90a3cd4d7fa75434b9e1ef0b1633d101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59169dea210b69ea94a036b0a58d1ea2') in 0.008363 seconds 
+  Import took 0.011186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.007_Material_0_75_0.asset
+  artifactKey: Guid(5d6604f001a98574ebf2dda8d5d10b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.007_Material_0_75_0.asset using Guid(5d6604f001a98574ebf2dda8d5d10b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbd8dc5d42e845ea76a4093b9c65f5f') in 0.009244 seconds 
+  Import took 0.012033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Cherry_0_20_0.asset
+  artifactKey: Guid(8c447b4bb9a7015419b384e9bd32259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Cherry_0_20_0.asset using Guid(8c447b4bb9a7015419b384e9bd32259c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd0e21883ac54df3748428ba6253f2e') in 0.008980 seconds 
+  Import took 0.011740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.011_Material_0_79_0.asset
+  artifactKey: Guid(9c631dad7f407e343908bd58e4d14e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.011_Material_0_79_0.asset using Guid(9c631dad7f407e343908bd58e4d14e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a671ae610007285056ae4d052ad26cdb') in 0.009464 seconds 
+  Import took 0.012304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Material_0_9_0.asset
+  artifactKey: Guid(a0c20b20456b665468074ac3c6e06ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Material_0_9_0.asset using Guid(a0c20b20456b665468074ac3c6e06ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e0b2244e6c4152b0e97e2bb9cedc32') in 0.009107 seconds 
+  Import took 0.012444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.002_Mint_0_28_0.asset
+  artifactKey: Guid(4ef50a6fabc494145ad604538edf94b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.002_Mint_0_28_0.asset using Guid(4ef50a6fabc494145ad604538edf94b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f578d6f0112894a54b6b4b94c914cd47') in 0.009199 seconds 
+  Import took 0.011997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.002_Cone_0_27_0.asset
+  artifactKey: Guid(1107407e2be69d14b81a127efe272305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.002_Cone_0_27_0.asset using Guid(1107407e2be69d14b81a127efe272305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca687569da3160d465f7769304221715') in 0.008523 seconds 
+  Import took 0.011314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.003_Cherry_0_34_0.asset
+  artifactKey: Guid(b8a053472778f5c44b99bfc23ce7b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.003_Cherry_0_34_0.asset using Guid(b8a053472778f5c44b99bfc23ce7b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f0c155cb0db4cf1e109adaf1391e50') in 0.008564 seconds 
+  Import took 0.011269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.003_Dark Chocolate_0_37_0.asset
+  artifactKey: Guid(ea33a692a02570845a84d895965dda30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.003_Dark Chocolate_0_37_0.asset using Guid(ea33a692a02570845a84d895965dda30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67602733d0b63fc56bf9e5646c9d92a') in 0.009796 seconds 
+  Import took 0.012555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.005_Material_0_73_0.asset
+  artifactKey: Guid(54a1fb3cec05653429630a7942e6e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.005_Material_0_73_0.asset using Guid(54a1fb3cec05653429630a7942e6e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88de2e68bf891b730f3214ba74256307') in 0.011205 seconds 
+  Import took 0.014086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.004_Material_0_72_0.asset
+  artifactKey: Guid(bab6ee1ca2ddefc408b4bba7149b8c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.004_Material_0_72_0.asset using Guid(bab6ee1ca2ddefc408b4bba7149b8c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac630c6acfaab2680e5f8ad31699e64') in 0.009156 seconds 
+  Import took 0.011900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Material.002_0_12_0.asset
+  artifactKey: Guid(a38462fee43063d42a21a052661b05c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Material.002_0_12_0.asset using Guid(a38462fee43063d42a21a052661b05c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78527ef3f7c42b2ce36fc6c78fcc18da') in 0.008505 seconds 
+  Import took 0.011302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.003_Blue_0_5_0.asset
+  artifactKey: Guid(a8f6e60c30a2463428627948f0257c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.003_Blue_0_5_0.asset using Guid(a8f6e60c30a2463428627948f0257c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94ce99d60961b9aa2b39a6fbd748cd9') in 0.008434 seconds 
+  Import took 0.011236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.006_Material_0_74_0.asset
+  artifactKey: Guid(e695bdf9a008c464cbb483e0a5f6545e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.006_Material_0_74_0.asset using Guid(e695bdf9a008c464cbb483e0a5f6545e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1cb392d80f32ae23627b4720279863') in 0.009172 seconds 
+  Import took 0.011958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Material.003_0_19_0.asset
+  artifactKey: Guid(a11e1704f5ee9c4498848e02385e5ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Material.003_0_19_0.asset using Guid(a11e1704f5ee9c4498848e02385e5ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bbf1e470cb0b66d64bbd153cd759ba') in 0.008580 seconds 
+  Import took 0.011538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Vanilla_0_10_0.asset
+  artifactKey: Guid(8633cbb10991e34428d5d50b0bdc9e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Vanilla_0_10_0.asset using Guid(8633cbb10991e34428d5d50b0bdc9e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cb9c25e7839005fc58bf98980f3381') in 0.010917 seconds 
+  Import took 0.013860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.003_Material_0_36_0.asset
+  artifactKey: Guid(3ef33c69cd17235488f8571c4a19a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.003_Material_0_36_0.asset using Guid(3ef33c69cd17235488f8571c4a19a7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfacad461fcc99fea550f24fd8592cd') in 0.008847 seconds 
+  Import took 0.011964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.004_Material_0_72_0.asset
+  artifactKey: Guid(bab6ee1ca2ddefc408b4bba7149b8c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.004_Material_0_72_0.asset using Guid(bab6ee1ca2ddefc408b4bba7149b8c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac630c6acfaab2680e5f8ad31699e64') in 0.008417 seconds 
+  Import took 0.011567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.003_Chocolate_0_29_0.asset
+  artifactKey: Guid(5aa1352b222e32a46a6d0fb5f2802273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.003_Chocolate_0_29_0.asset using Guid(5aa1352b222e32a46a6d0fb5f2802273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbc89bca3a77f1e1582511a2b38910e') in 0.009548 seconds 
+  Import took 0.012414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Circle.009_Material_0_77_0.asset
+  artifactKey: Guid(c56b9268f5539654db84837fcf59e71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Circle.009_Material_0_77_0.asset using Guid(c56b9268f5539654db84837fcf59e71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9c86f1da8eb30ef9bda0dbb409f05c') in 0.008460 seconds 
+  Import took 0.011284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.007_White_0_44_0.asset
+  artifactKey: Guid(59886f2c2fba7ed48a6d420f19be8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.007_White_0_44_0.asset using Guid(59886f2c2fba7ed48a6d420f19be8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdbde3d39eadb5d0911f53236ab1d91') in 0.009572 seconds 
+  Import took 0.012408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.003_Strawberry_0_32_0.asset
+  artifactKey: Guid(4b179975a4224484bb80c4e8f83c732f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.003_Strawberry_0_32_0.asset using Guid(4b179975a4224484bb80c4e8f83c732f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8fe63f37987105d61abc4c210793d1') in 0.010165 seconds 
+  Import took 0.013056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Mint_0_16_0.asset
+  artifactKey: Guid(529ae8bd747f6b04b932368e31e07d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Mint_0_16_0.asset using Guid(529ae8bd747f6b04b932368e31e07d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2779b81297e4788d14452ec63df4e146') in 0.009409 seconds 
+  Import took 0.012589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.001_Strawberry_0_26_0.asset
+  artifactKey: Guid(2a4c725a0e065764c9d70431baf87c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.001_Strawberry_0_26_0.asset using Guid(2a4c725a0e065764c9d70431baf87c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8feb9b91cc7fb661903cbd7353d627') in 0.009315 seconds 
+  Import took 0.012203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.004_Dark Chocolate_0_18_0.asset
+  artifactKey: Guid(80bff64e2c3dd394a9c2e9ebb44af075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.004_Dark Chocolate_0_18_0.asset using Guid(80bff64e2c3dd394a9c2e9ebb44af075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff97a524416deedf9e9cae4a16f1b1c') in 0.008968 seconds 
+  Import took 0.011893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.005__0_46_0.asset
+  artifactKey: Guid(86340b8bf0bb5354cbc8eae171a59074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.005__0_46_0.asset using Guid(86340b8bf0bb5354cbc8eae171a59074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf8c1ecfd449a71c3db76b8d9825e90') in 0.008451 seconds 
+  Import took 0.011169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cone.006_Glass.001_0_71_0.asset
+  artifactKey: Guid(b8f2c84e9facf9a4ba5388fb93035bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cone.006_Glass.001_0_71_0.asset using Guid(b8f2c84e9facf9a4ba5388fb93035bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f1b6cf22f780b82ba527a0a3c29e00') in 0.008985 seconds 
+  Import took 0.011752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.979266 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.010_Strawberry.001_0_59_0.asset
+  artifactKey: Guid(6371fa6fececb694f8f19d00ad713afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.010_Strawberry.001_0_59_0.asset using Guid(6371fa6fececb694f8f19d00ad713afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98889f042f89861062bf15ceb3812e18') in 0.008483 seconds 
+  Import took 0.011326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.011__0_69_0.asset
+  artifactKey: Guid(87108128d011a2949a07fd382ab98ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.011__0_69_0.asset using Guid(87108128d011a2949a07fd382ab98ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bf736496cce41977b9545532304934') in 0.008258 seconds 
+  Import took 0.010974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube_Walls_0_0_0.asset
+  artifactKey: Guid(ed6a865329fa18a4cab26d208268e7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube_Walls_0_0_0.asset using Guid(ed6a865329fa18a4cab26d208268e7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a2c90e927d9f584680c397be9d7494') in 0.008552 seconds 
+  Import took 0.011331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Plane.001_Material.008_0_22_0.asset
+  artifactKey: Guid(da82eda1c10dd5f4993c491ce20b718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Plane.001_Material.008_0_22_0.asset using Guid(da82eda1c10dd5f4993c491ce20b718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12cbe042daa036a62a6a42e89c090cd') in 0.008165 seconds 
+  Import took 0.010964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Plane.002_Walls_0_47_0.asset
+  artifactKey: Guid(3277416b464d8fa44a8c1955d4be577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Plane.002_Walls_0_47_0.asset using Guid(3277416b464d8fa44a8c1955d4be577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a910de1f3ffee3f4445c58c99e318038') in 0.008889 seconds 
+  Import took 0.011648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cube.010_Walls_0_58_0.asset
+  artifactKey: Guid(630b7b2a05352b04d8980075230479f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cube.010_Walls_0_58_0.asset using Guid(630b7b2a05352b04d8980075230479f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc02a35c675c688bd0918948481da86') in 0.032472 seconds 
+  Import took 0.035266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cylinder.002_Strawberry_0_43_0.asset
+  artifactKey: Guid(441532ec14df7c448b854e9f0e6ccdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cylinder.002_Strawberry_0_43_0.asset using Guid(441532ec14df7c448b854e9f0e6ccdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5b8d349ffccbb6c881f1a9ca380985') in 0.009486 seconds 
+  Import took 0.012294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Plane.002_Strawberry.001_0_48_0.asset
+  artifactKey: Guid(330544acde8acea459b77532c5c5ca67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Plane.002_Strawberry.001_0_48_0.asset using Guid(330544acde8acea459b77532c5c5ca67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f7b83e384938bddc96b21e624b9ca5') in 0.013425 seconds 
+  Import took 0.016218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cylinder.001_Material.010_0_42_0.asset
+  artifactKey: Guid(49aec8f95137ac544a2387cce9b40139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cylinder.001_Material.010_0_42_0.asset using Guid(49aec8f95137ac544a2387cce9b40139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16700941612a2a48f524627ae9a7225') in 0.008625 seconds 
+  Import took 0.011522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cylinder.003_Cone_0_50_0.asset
+  artifactKey: Guid(7071b53b45538b9479c66c9a9ae3d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cylinder.003_Cone_0_50_0.asset using Guid(7071b53b45538b9479c66c9a9ae3d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1652533033145811b6e8c999b2a37950') in 0.012727 seconds 
+  Import took 0.015529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cylinder_Material.004_0_41_0.asset
+  artifactKey: Guid(fe3f11a98eb74744c95b1b894fa173ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cylinder_Material.004_0_41_0.asset using Guid(fe3f11a98eb74744c95b1b894fa173ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b775a4d7bd68631bd249bb68ed7679') in 0.008612 seconds 
+  Import took 0.011330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cylinder.001_Material.010_0_42_0.asset
+  artifactKey: Guid(49aec8f95137ac544a2387cce9b40139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cylinder.001_Material.010_0_42_0.asset using Guid(49aec8f95137ac544a2387cce9b40139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16700941612a2a48f524627ae9a7225') in 0.006085 seconds 
+  Import took 0.008932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061237 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Cylinder_Material.004_0_41_0.asset
+  artifactKey: Guid(fe3f11a98eb74744c95b1b894fa173ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Cylinder_Material.004_0_41_0.asset using Guid(fe3f11a98eb74744c95b1b894fa173ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b775a4d7bd68631bd249bb68ed7679') in 0.005707 seconds 
+  Import took 0.009055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.427905 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Plane.002_White_0_49_0.asset
+  artifactKey: Guid(638f43820e65f554abf9a82d95e45ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Plane.002_White_0_49_0.asset using Guid(638f43820e65f554abf9a82d95e45ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbf6d22ced1191c76c22adc64c62fe1') in 0.016136 seconds 
+  Import took 0.019618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Plane_Blue_0_3_0.asset
+  artifactKey: Guid(3daee7b3f3bc46d4485da3ce10b93aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Plane_Blue_0_3_0.asset using Guid(3daee7b3f3bc46d4485da3ce10b93aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2cbfe02b8fd8d27251f13478a76f06') in 0.010210 seconds 
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert.001_Blue_0_66_0.asset
+  artifactKey: Guid(d09d93bc080d64447a90ccfa393e3c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert.001_Blue_0_66_0.asset using Guid(d09d93bc080d64447a90ccfa393e3c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8639c9c97f175aa2313f1652c5f1169f') in 0.009613 seconds 
+  Import took 0.012779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert.001_Strawberry_0_67_0.asset
+  artifactKey: Guid(75c025bf8cb2b354f9661a378a03d979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert.001_Strawberry_0_67_0.asset using Guid(75c025bf8cb2b354f9661a378a03d979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2526f0024958e21c7c22cc56c7c7f146') in 0.008170 seconds 
+  Import took 0.011091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert_Material.014_0_62_0.asset
+  artifactKey: Guid(6b9834ddceaf73d42bdd819a74044b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert_Material.014_0_62_0.asset using Guid(6b9834ddceaf73d42bdd819a74044b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e4bc3a23b08b4fa897fc2cb699a432') in 0.009215 seconds 
+  Import took 0.012016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert_GreenEmission_0_63_0.asset
+  artifactKey: Guid(8803a65ed900b2a49b9c79e0fb2b8888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert_GreenEmission_0_63_0.asset using Guid(8803a65ed900b2a49b9c79e0fb2b8888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0541e3095b37348eb83400ffde1b1a3') in 0.019586 seconds 
+  Import took 0.022254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert_ConeLight_0_64_0.asset
+  artifactKey: Guid(2875808f406c44941b6cc744edc678b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert_ConeLight_0_64_0.asset using Guid(2875808f406c44941b6cc744edc678b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac572dca05d831a8b6833861049762f') in 0.009878 seconds 
+  Import took 0.012776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert_WhiteEmission_0_60_0.asset
+  artifactKey: Guid(92234bb044a37b6498e115d817ae2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert_WhiteEmission_0_60_0.asset using Guid(92234bb044a37b6498e115d817ae2cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a186397a9b2b15992ddf3496116908c') in 0.009496 seconds 
+  Import took 0.012310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert_BlueEmission_0_61_0.asset
+  artifactKey: Guid(22a4c87f44a91ea459104c51d37d5833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert_BlueEmission_0_61_0.asset using Guid(22a4c87f44a91ea459104c51d37d5833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fa5a93b5f4bce573cdbd7c6ea50cff') in 0.009348 seconds 
+  Import took 0.012121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert.001_Material.014_0_65_0.asset
+  artifactKey: Guid(a0502eb97b8115745a424e7bca5b6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert.001_Material.014_0_65_0.asset using Guid(a0502eb97b8115745a424e7bca5b6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41f87d354ca05ba8f0b69007f38b334') in 0.010490 seconds 
+  Import took 0.013300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Plane.003_Material.008_0_52_0.asset
+  artifactKey: Guid(5f0f1ab1de9f1bf4386675f46e13cf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Plane.003_Material.008_0_52_0.asset using Guid(5f0f1ab1de9f1bf4386675f46e13cf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5287468f0fe87f460fe09fc295d84373') in 0.010788 seconds 
+  Import took 0.013659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert.001_White_0_68_0.asset
+  artifactKey: Guid(524de9bb6d2d03f4f98b5f510a3b5d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert.001_White_0_68_0.asset using Guid(524de9bb6d2d03f4f98b5f510a3b5d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8885c5faa62f3eed28b48112ba7ba43') in 0.008661 seconds 
+  Import took 0.012267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Plane_Strawberry.001_0_2_0.asset
+  artifactKey: Guid(4b70fc6dcbb72064b9fce1c041fea3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Plane_Strawberry.001_0_2_0.asset using Guid(4b70fc6dcbb72064b9fce1c041fea3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090ae3b3aa1f0e455541e92c3eb22d33') in 0.009545 seconds 
+  Import took 0.012365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062478 seconds.
+  path: Assets/Anas/low poly icecream shop/meshes/Vert.001_White_0_68_0.asset
+  artifactKey: Guid(524de9bb6d2d03f4f98b5f510a3b5d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/meshes/Vert.001_White_0_68_0.asset using Guid(524de9bb6d2d03f4f98b5f510a3b5d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8885c5faa62f3eed28b48112ba7ba43') in 0.005542 seconds 
+  Import took 0.008821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.731444 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Blue_4.mat
+  artifactKey: Guid(535430b20f0a05e40bf04d1f5b276d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Blue_4.mat using Guid(535430b20f0a05e40bf04d1f5b276d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd337c39b9ce1383e9eb704b2790f916e') in 0.009852 seconds 
+  Import took 0.012831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Material.014_27.mat
+  artifactKey: Guid(962543ba893628b4a856a0e1b9b0159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Material.014_27.mat using Guid(962543ba893628b4a856a0e1b9b0159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a319ef46c4f6c19917a45e7cacd482') in 0.029835 seconds 
+  Import took 0.032563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Material.008_18.mat
+  artifactKey: Guid(2b1224a5413b6b048ae513e446a84fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Material.008_18.mat using Guid(2b1224a5413b6b048ae513e446a84fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff431456f4004205c284a41a23cc1dd') in 0.008847 seconds 
+  Import took 0.011843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Material.004_21.mat
+  artifactKey: Guid(112489396e870e04b881146da353ef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Material.004_21.mat using Guid(112489396e870e04b881146da353ef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a461dc43e997adbec3a0c9c3b6ae0a3a') in 0.019267 seconds 
+  Import took 0.021993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Cherry_17.mat
+  artifactKey: Guid(caac5aa02166b284e994dc25abb045ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Cherry_17.mat using Guid(caac5aa02166b284e994dc25abb045ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79be2fa98e0948fbcd191839038899d2') in 0.009003 seconds 
+  Import took 0.011721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/idk_another_pink_one_11.mat
+  artifactKey: Guid(1345cd29de28a134bb3656902e6507c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/idk_another_pink_one_11.mat using Guid(1345cd29de28a134bb3656902e6507c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13048b97f3eedd65f3bf0892062f41e') in 0.009172 seconds 
+  Import took 0.011965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Vanilla_8.mat
+  artifactKey: Guid(05728a67f7215184bb4bd23eddb052db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Vanilla_8.mat using Guid(05728a67f7215184bb4bd23eddb052db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e236c9aa9af9446dbb58736974140fbc') in 0.008789 seconds 
+  Import took 0.011524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Walls.001_2.mat
+  artifactKey: Guid(16a01c4dc61104842bdc2cffc9b7fc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Walls.001_2.mat using Guid(16a01c4dc61104842bdc2cffc9b7fc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3cd2163e19b5970dd52357a11b8d41') in 0.009282 seconds 
+  Import took 0.029834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Cone_19.mat
+  artifactKey: Guid(3fe1f61fd01ec5b499cc6f324f22b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Cone_19.mat using Guid(3fe1f61fd01ec5b499cc6f324f22b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5e9855c61f873cb8647160a88130ab') in 0.011741 seconds 
+  Import took 0.014592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Mint_13.mat
+  artifactKey: Guid(34312d8441c1a224a8e5f705ff0eb660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Mint_13.mat using Guid(34312d8441c1a224a8e5f705ff0eb660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74768e5884853cd2fe60a9d54844972f') in 0.009102 seconds 
+  Import took 0.012163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Walls_1.mat
+  artifactKey: Guid(f1312934dcb315843a6dd7625374d47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Walls_1.mat using Guid(f1312934dcb315843a6dd7625374d47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bf0be3127cd95b5ba8e7bd29b0e16a') in 0.010137 seconds 
+  Import took 0.013074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Cube.005__0_0.mat
+  artifactKey: Guid(77fce9c5681db3545bca215d6f9bde6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Cube.005__0_0.mat using Guid(77fce9c5681db3545bca215d6f9bde6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696b5c75c6c0b8874cc1ec4cdc77f549') in 0.009730 seconds 
+  Import took 0.012505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Glass_5.mat
+  artifactKey: Guid(e268ba2a8975e0a4c83f4b6096a0696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Glass_5.mat using Guid(e268ba2a8975e0a4c83f4b6096a0696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242f8a25690aaf2fef7e11c6bd967ca3') in 0.008534 seconds 
+  Import took 0.011296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/BlueEmission_26.mat
+  artifactKey: Guid(9795ab49ba250714784fde8d5dea9e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/BlueEmission_26.mat using Guid(9795ab49ba250714784fde8d5dea9e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eacf0c146625621f824d13c7e68e7b1') in 0.009123 seconds 
+  Import took 0.011828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Glass.001_20.mat
+  artifactKey: Guid(bbc462445eea141439d61d2f07b54f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Glass.001_20.mat using Guid(bbc462445eea141439d61d2f07b54f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7412a46c88ed5f003a2a04e533e978') in 0.010985 seconds 
+  Import took 0.014049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Material.010_22.mat
+  artifactKey: Guid(0848e00fb1756ff42acb73222b2ca938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Material.010_22.mat using Guid(0848e00fb1756ff42acb73222b2ca938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8a28c76f29389f6fffbe003146bcbc') in 0.029267 seconds 
+  Import took 0.032249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Material.002_9.mat
+  artifactKey: Guid(b8f1ad82e253fb1458da72ff970e199a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Material.002_9.mat using Guid(b8f1ad82e253fb1458da72ff970e199a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0acd6f0820ad130afcc5bb50b69a7b0') in 0.009994 seconds 
+  Import took 0.012773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/GreenEmission_28.mat
+  artifactKey: Guid(43b3fbd740d4e3f41b9321fb14a7516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/GreenEmission_28.mat using Guid(43b3fbd740d4e3f41b9321fb14a7516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bf548ca582b129ab8a365018074948') in 0.009143 seconds 
+  Import took 0.012108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/ConeLight_29.mat
+  artifactKey: Guid(674bddfd9ad4f064380950d3f6f27b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/ConeLight_29.mat using Guid(674bddfd9ad4f064380950d3f6f27b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e4323f0ffc29b7e2faf8a4a71b348d') in 0.010680 seconds 
+  Import took 0.013696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/WhiteEmission_25.mat
+  artifactKey: Guid(6d439c93be87a4545934cbb9d1f778ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/WhiteEmission_25.mat using Guid(6d439c93be87a4545934cbb9d1f778ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9cdd6b1032a4ab4d7340db202830dd') in 0.008554 seconds 
+  Import took 0.011356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Material.003_16.mat
+  artifactKey: Guid(00f6224437b09084d87d9ecea7344487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Material.003_16.mat using Guid(00f6224437b09084d87d9ecea7344487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf8e06903a8eee5eabf99bb4b44598a') in 0.009637 seconds 
+  Import took 0.012410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Lemon_10.mat
+  artifactKey: Guid(774fa67ff5a3b99488edc80074d1b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Lemon_10.mat using Guid(774fa67ff5a3b99488edc80074d1b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aba817b24b9f4b3afe6394b61ad9ebc') in 0.009154 seconds 
+  Import took 0.012027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Strawberry.001_3.mat
+  artifactKey: Guid(c8044cc7f95efa64d99a5499df547327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Strawberry.001_3.mat using Guid(c8044cc7f95efa64d99a5499df547327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6939ec55a06764e2ec0e5f5a1863e4c7') in 0.009706 seconds 
+  Import took 0.012572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/White_23.mat
+  artifactKey: Guid(7278fbbd75cad2642b1d12a41e1fc396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/White_23.mat using Guid(7278fbbd75cad2642b1d12a41e1fc396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593de0725f06e0a7baeb5a899e730464') in 0.008478 seconds 
+  Import took 0.012040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Caramel_12.mat
+  artifactKey: Guid(966eeb341d9dfdf418708dfe6bca597e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Caramel_12.mat using Guid(966eeb341d9dfdf418708dfe6bca597e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b09b1b1379dd321068fb120566ebd17') in 0.011422 seconds 
+  Import took 0.014625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Material.001_24.mat
+  artifactKey: Guid(fa0a73fbfdc85674b9171a1f8f5fc930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Material.001_24.mat using Guid(fa0a73fbfdc85674b9171a1f8f5fc930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65aa96b19e796e53d54bf1d609cae754') in 0.009323 seconds 
+  Import took 0.012319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Chocolate_14.mat
+  artifactKey: Guid(2369683ceccd5474a9f083d3cdbf4dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Chocolate_14.mat using Guid(2369683ceccd5474a9f083d3cdbf4dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c2626dec2a038509a936a9be39ede2') in 0.009993 seconds 
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Strawberry_6.mat
+  artifactKey: Guid(f21c404b5ad971b49925042d7518c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Strawberry_6.mat using Guid(f21c404b5ad971b49925042d7518c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f69ad25a71423c2e85975b4044e27ae') in 0.008580 seconds 
+  Import took 0.011565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Dark_Chocolate_15.mat
+  artifactKey: Guid(2fde335bbd500c84ab64895b68af5a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Dark_Chocolate_15.mat using Guid(2fde335bbd500c84ab64895b68af5a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c900173a0e5f94b288564296f03d39c') in 0.009145 seconds 
+  Import took 0.011942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Anas/low poly icecream shop/materials/Material_7.mat
+  artifactKey: Guid(7366ca706128ef449a3a608886593094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anas/low poly icecream shop/materials/Material_7.mat using Guid(7366ca706128ef449a3a608886593094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428a940db126d1f7c79d929bea4bd394') in 0.009043 seconds 
+  Import took 0.011932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2429.730379 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Ground_Generic_03.png
+  artifactKey: Guid(e0b09c625cee17a48b22b2cf949cd320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Ground_Generic_03.png using Guid(e0b09c625cee17a48b22b2cf949cd320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd7ee98e2e849880440070722b67bc1') in 0.469356 seconds 
+  Import took 0.473021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Ground_Grass_Green_01.png
+  artifactKey: Guid(8c75ba30e5f76df4fb30725e4c9bf38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Ground_Grass_Green_01.png using Guid(8c75ba30e5f76df4fb30725e4c9bf38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654de780be19dcbd688b520bf5b6fe19') in 0.010709 seconds 
+  Import took 0.013452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059379 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Ground_Generic_03.png
+  artifactKey: Guid(e0b09c625cee17a48b22b2cf949cd320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Ground_Generic_03.png using Guid(e0b09c625cee17a48b22b2cf949cd320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd7ee98e2e849880440070722b67bc1') in 0.011599 seconds 
+  Import took 0.015080 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class CromObstracleCollision : MonoBehaviour
 {
-    private  CromGameManager gameManager;
-    private GameObject gameobject3;
+     private  CromGameManager gameManager;
+     private GameObject gameobject3;
 
     private void Start()
     {
         gameobject3 = GameObject.Find("Game Manager");
         gameManager = gameobject3.GetComponent<CromGameManager>();
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         gameManager.cromGameover();
     }
