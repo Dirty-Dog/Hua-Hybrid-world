@@ -564,7 +564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260b92ae9bcf55645ab3c2b3dea3c49f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 7.5
+  thrust: 15
 --- !u!54 &758106526
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfec29bed508e724c84adb8cb2aa37b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObject: {fileID: 0}
+  gameObject1: {fileID: 0}
   gameManager: {fileID: 724634943}
 --- !u!65 &1088155614
 BoxCollider:
@@ -1296,7 +1296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfec29bed508e724c84adb8cb2aa37b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObject: {fileID: 0}
+  gameObject1: {fileID: 0}
   gameManager: {fileID: 724634943}
 --- !u!1 &2122176312
 GameObject:

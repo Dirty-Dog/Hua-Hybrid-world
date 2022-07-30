@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class FapGameScore : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
+        CromGameManager manager1;
+        GameObject temp;
+        temp = GameObject.Find("Game Manager");
+        manager1 = temp.GetComponent<CromGameManager>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        manager1.cromScoreInc();
+            
     }
 }

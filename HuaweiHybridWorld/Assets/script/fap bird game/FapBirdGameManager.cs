@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class FapBirdGameManager : MonoBehaviour
 {
     public int score;
-    public int life;
     public GameObject gameoverScreen;
     public Text Score_;
     private void Start()
@@ -31,14 +30,6 @@ public class FapBirdGameManager : MonoBehaviour
     public void scoreInc()
     {
         score++;
-    }
-    public void lifeInc()
-    {
-        life++;
-    }
-    public void lifeDec()
-    {
-        life--;
     }
 
     public void restart()
