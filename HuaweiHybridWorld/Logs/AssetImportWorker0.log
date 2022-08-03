@@ -15,11 +15,11 @@ D:/college/unity games/Hua-Hybrid-world/HuaweiHybridWorld
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62509
+56472
 Successfully changed project path to: D:/college/unity games/Hua-Hybrid-world/HuaweiHybridWorld
 D:/college/unity games/Hua-Hybrid-world/HuaweiHybridWorld
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.12 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 64.14 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002364 seconds.
+Registered in 0.002271 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.69 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 47.66 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.359 seconds
+- Completed reload, in  2.183 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2359ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (2183ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (389ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (402ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (154ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (163ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (48ms)
 				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (65ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009781 seconds.
+Registered in 0.010088 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.44 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 48.86 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.325 seconds
+- Completed reload, in  1.277 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1326ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1278ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1134ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1095ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (276ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (551ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (553ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (418ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (417ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2127 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
-System memory in use after: 163.4 MB.
+Unloading 2128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.0 MB.
+System memory in use after: 164.1 MB.
 
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2632.
-Total: 3.659900 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.051600 ms MarkObjects: 3.263100 ms  DeleteObjects: 0.099200 ms)
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 3.811700 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.048100 ms MarkObjects: 3.411800 ms  DeleteObjects: 0.128200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,333 +134,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(5208144c061a3014c9a5e54ef9031403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(5208144c061a3014c9a5e54ef9031403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PT_Pine_Tree_03_green_cut must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree PT_Pine_Tree_03_green_cut must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '1db7a414038c598974977a61c6c368f2') in 0.221474 seconds 
-  Import took 0.251413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.026038 seconds 
-  Import took 0.048474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.824289 seconds.
-  path: Assets/dinosaur pack
-  artifactKey: Guid(e44c0f5b096d37641a3397c98148f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dinosaur pack using Guid(e44c0f5b096d37641a3397c98148f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38ef5998530e3c944e1d1d85db70c68') in 0.005885 seconds 
-  Import took 0.042520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.604502 seconds.
-  path: Assets/Assets.index
-  artifactKey: Guid(ae504287cbeeb284d92c6397169a25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets.index using Guid(ae504287cbeeb284d92c6397169a25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cdb7e4b29df9cfa71f6a5752607302') in 0.025028 seconds 
-  Import took 0.091426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.461988 seconds.
-  path: Assets/Assets.index
-  artifactKey: Guid(ae504287cbeeb284d92c6397169a25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets.index using Guid(ae504287cbeeb284d92c6397169a25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2883061545038f76096ee6fbf6baef0') in 0.004418 seconds 
-  Import took 0.026496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.332146 seconds.
-  path: Assets/MobileDinosaurPack/Shaders
-  artifactKey: Guid(7f9b407dc6e0135439c4a122c82b002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/Shaders using Guid(7f9b407dc6e0135439c4a122c82b002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0ebdf63d52e3388520bea73159c6ed') in 0.005908 seconds 
-  Import took 0.032459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.758122 seconds.
   path: Assets/MobileDinosaurPack/3D_Meshes/Ankylosaurus.fbx
   artifactKey: Guid(b040ba9bb63c0154da4b0e1bc1b99ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Ankylosaurus.fbx using Guid(b040ba9bb63c0154da4b0e1bc1b99ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76451b7a67fd438f9c728f707b00fc46') in 0.192919 seconds 
-  Import took 0.196412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Stegosaurus.fbx
-  artifactKey: Guid(50c0c2c5caa1d3e488a4627f938f3ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Stegosaurus.fbx using Guid(50c0c2c5caa1d3e488a4627f938f3ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36acc0e878a8dbe9acda443538a7dec') in 0.051714 seconds 
-  Import took 0.086961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Stegosaurus@walking.fbx
-  artifactKey: Guid(607711ba4c53ce646b99ede6819fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Stegosaurus@walking.fbx using Guid(607711ba4c53ce646b99ede6819fda9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddee6ccd8fe478d98b820e362d67861') in 0.014530 seconds 
-  Import took 0.090987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Tyrannosaurus.fbx
-  artifactKey: Guid(d394a8fa05e1c7d42bb302ca42538b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Tyrannosaurus.fbx using Guid(d394a8fa05e1c7d42bb302ca42538b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d9a48587a509b4b38a90d86b310997') in 0.031255 seconds 
-  Import took 0.067726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@running.fbx
-  artifactKey: Guid(568de23fc5ae1a240b5a9d9f6b654415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@running.fbx using Guid(568de23fc5ae1a240b5a9d9f6b654415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0db08ae137c75d93ebcf6cd32792f4') in 0.011065 seconds 
-  Import took 0.036207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@walking.fbx
-  artifactKey: Guid(f8bf713c007385b4790633932a725db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@walking.fbx using Guid(f8bf713c007385b4790633932a725db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589ef7ea7d5e9ad7c5e85ab15bec880e') in 0.011267 seconds 
-  Import took 0.016856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@eating.fbx
-  artifactKey: Guid(a153db1c4cc479244b75196ce56ad515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@eating.fbx using Guid(a153db1c4cc479244b75196ce56ad515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a1ec0ed359afe0139d718d17c1368c') in 0.014339 seconds 
-  Import took 0.064916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Velociraptor.fbx
-  artifactKey: Guid(3727d34476bc5bf42a18dd1474f9e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Velociraptor.fbx using Guid(3727d34476bc5bf42a18dd1474f9e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cbcb8c1e4972e87fdbbd13f9f24431') in 0.053590 seconds 
-  Import took 0.129821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Brachiosaurus.fbx
-  artifactKey: Guid(466e75f65b646234eb81e468c5e07064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Brachiosaurus.fbx using Guid(466e75f65b646234eb81e468c5e07064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06b104b683124a55afecbc776764c79') in 0.029592 seconds 
-  Import took 0.062199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Pteranodon.fbx
-  artifactKey: Guid(89e48f4e14eba9340926947ac1e68c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Pteranodon.fbx using Guid(89e48f4e14eba9340926947ac1e68c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e21e7ed0b11e79455ed54a88434477f') in 0.031883 seconds 
-  Import took 0.066328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@gettingHit.fbx
-  artifactKey: Guid(0b4a35a083f6d67458bee6a02b8d906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@gettingHit.fbx using Guid(0b4a35a083f6d67458bee6a02b8d906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392bc12174bd6a942cfef6fee024b17e') in 0.011885 seconds 
-  Import took 0.066534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@attack01.fbx
-  artifactKey: Guid(78dfccada46d9a743afcb33d3ec3d204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@attack01.fbx using Guid(78dfccada46d9a743afcb33d3ec3d204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4477046085bb62cd647d43537898f2') in 0.011643 seconds 
-  Import took 0.059430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@idle.fbx
-  artifactKey: Guid(eb4e4ca3a90e2e94c82513c7e027f5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@idle.fbx using Guid(eb4e4ca3a90e2e94c82513c7e027f5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d8d1525146b7a2845eb9e1b95c6b41') in 0.012782 seconds 
-  Import took 0.016424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@dying.fbx
-  artifactKey: Guid(fe83834ed2d47074aa634e9b67d89cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Velociraptor@dying.fbx using Guid(fe83834ed2d47074aa634e9b67d89cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b50a1181297aac85a30b281cac128a6') in 0.011925 seconds 
-  Import took 0.083128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.031846 seconds.
-  path: Assets/prefab/Tyrannosaurus.prefab
-  artifactKey: Guid(ff9cfa2c510f5884c8a0e0704c5fd519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Tyrannosaurus.prefab using Guid(ff9cfa2c510f5884c8a0e0704c5fd519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c659bbe10cfde5658cc935e7f67122') in 0.029669 seconds 
-  Import took 0.034338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.314494 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Materials
-  artifactKey: Guid(56b71484a20a95542a59f2d4fab04a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Materials using Guid(56b71484a20a95542a59f2d4fab04a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e510e1f5c2faba23a467f4d5b464f3') in 0.007319 seconds 
-  Import took 0.051514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Materials/Stegosaurus_Diffuse.mat
-  artifactKey: Guid(d436d92837bba454fb9eed93bdbaf4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Materials/Stegosaurus_Diffuse.mat using Guid(d436d92837bba454fb9eed93bdbaf4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe5488cc0e9b50ab2f6c973675cae63') in 0.046610 seconds 
-  Import took 0.080304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Materials/Brachiosaurus_Diffuse.mat
-  artifactKey: Guid(03d38e96865ba8c4aa4b04b97c2f963e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Materials/Brachiosaurus_Diffuse.mat using Guid(03d38e96865ba8c4aa4b04b97c2f963e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee22c45a41c64fe45f5b9f123e649b8') in 0.019547 seconds 
-  Import took 0.046096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Materials/Ankylosaurus_Diffuse.mat
-  artifactKey: Guid(366afbec205a13d489cdc575c1eb251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Materials/Ankylosaurus_Diffuse.mat using Guid(366afbec205a13d489cdc575c1eb251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0008079d6e6a3921a1d3fe80a81879') in 0.021957 seconds 
-  Import took 0.058427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Materials/Pteranodon_Diffuse.mat
-  artifactKey: Guid(476711bf5efcb17489ea3b50844b5b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Materials/Pteranodon_Diffuse.mat using Guid(476711bf5efcb17489ea3b50844b5b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4db30ccdcb425ff2c913d427585a9c') in 0.020179 seconds 
-  Import took 0.056026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Materials/Velociraptor_Diffuse.mat
-  artifactKey: Guid(532092dd6abd0f742a0aa3df20af25b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Materials/Velociraptor_Diffuse.mat using Guid(532092dd6abd0f742a0aa3df20af25b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f69867de5e3a41973211f9cb7f71af') in 0.032060 seconds 
-  Import took 0.036109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes/Materials/T_Rex_Diffuse.mat
-  artifactKey: Guid(d95d93f8cb83f4b468183ca329b6588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes/Materials/T_Rex_Diffuse.mat using Guid(d95d93f8cb83f4b468183ca329b6588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fa3a0df3eda09c6643314f6c6bcaa3') in 0.022692 seconds 
-  Import took 0.026163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.170704 seconds.
-  path: Assets/MobileDinosaurPack/3D_Meshes
-  artifactKey: Guid(736688cf0a2b2dd4dadb6dbc6cda6c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/3D_Meshes using Guid(736688cf0a2b2dd4dadb6dbc6cda6c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a3a6dd56a009e6a4ffd7c3e7ecfd37') in 0.006123 seconds 
-  Import took 0.032408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.467946 seconds.
-  path: Assets/Assets.index
-  artifactKey: Guid(ae504287cbeeb284d92c6397169a25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets.index using Guid(ae504287cbeeb284d92c6397169a25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d7be19c36888f838e17ae722e07fb7') in 0.004577 seconds 
-  Import took 0.031181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.103572 seconds.
-  path: Assets/MobileDinosaurPack/2D_Textures/Ankylosaurus_Diffuse.psd
-  artifactKey: Guid(9216378a0ec73dd45aab8453c3e970a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/2D_Textures/Ankylosaurus_Diffuse.psd using Guid(9216378a0ec73dd45aab8453c3e970a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24da05ab1e7593770b72924b2607f3e5') in 0.019237 seconds 
-  Import took 0.133370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/MobileDinosaurPack/2D_Textures/Pteranodon_Diffuse.psd
-  artifactKey: Guid(583a6ed4102aee44a84a6b716257968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/2D_Textures/Pteranodon_Diffuse.psd using Guid(583a6ed4102aee44a84a6b716257968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7427db084dbd9f21e1ebe030321fcc5') in 0.013279 seconds 
-  Import took 0.053955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/MobileDinosaurPack/2D_Textures/Brachiosaurus_Diffuse.psd
-  artifactKey: Guid(fe0fff9403c07cc4196caf452dcbaada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/2D_Textures/Brachiosaurus_Diffuse.psd using Guid(fe0fff9403c07cc4196caf452dcbaada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb5cd58fb42c528758cd549773482ac') in 0.014649 seconds 
-  Import took 0.070040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/MobileDinosaurPack/2D_Textures/Velociraptor_Diffuse.psd
-  artifactKey: Guid(0c0d30eda0c19ad42bd53471d330dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/2D_Textures/Velociraptor_Diffuse.psd using Guid(0c0d30eda0c19ad42bd53471d330dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaaf22058c22dea95dd6b79ecadb83f') in 0.032270 seconds 
-  Import took 0.097808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/MobileDinosaurPack/2D_Textures/T_Rex_Diffuse.psd
-  artifactKey: Guid(d5e869320faf77a4584b6d292305f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/2D_Textures/T_Rex_Diffuse.psd using Guid(d5e869320faf77a4584b6d292305f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c82df05008fef0f1056e8a3ef133e4') in 0.016156 seconds 
-  Import took 0.048470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/MobileDinosaurPack/2D_Textures/Stegosaurus_Diffuse.psd
-  artifactKey: Guid(390d9bfc3b48f1344947f872b0fe925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/2D_Textures/Stegosaurus_Diffuse.psd using Guid(390d9bfc3b48f1344947f872b0fe925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbe35794233b9f1e320d910f71d713a') in 0.020426 seconds 
-  Import took 0.053379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/MobileDinosaurPack/2D_Textures/Stegosaurus_Detail.psd
-  artifactKey: Guid(712e237d9f33d2e49951c4371f582b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/2D_Textures/Stegosaurus_Detail.psd using Guid(712e237d9f33d2e49951c4371f582b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da65db16d3462f13402b37e11b32b5cc') in 0.026067 seconds 
-  Import took 0.058807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.728163 seconds.
-  path: Assets/MobileDinosaurPack/2D_Textures
-  artifactKey: Guid(5f7dc6d9790d56746becf5fd111450c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MobileDinosaurPack/2D_Textures using Guid(5f7dc6d9790d56746becf5fd111450c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842b17526d91ead9cf03a30079a667c2') in 0.006286 seconds 
-  Import took 0.104566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 124.323321 seconds.
-  path: Assets/prefab/Pteranodon Variant.prefab
-  artifactKey: Guid(dd3bc0f02d254fe4da1b9e1e13a8f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Pteranodon Variant.prefab using Guid(dd3bc0f02d254fe4da1b9e1e13a8f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f86642c17ecb013b8f4d6b79807c332') in 0.021985 seconds 
-  Import took 0.044225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.289432 seconds.
-  path: Assets/prefab/Pteranodon Variant.prefab
-  artifactKey: Guid(dd3bc0f02d254fe4da1b9e1e13a8f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Pteranodon Variant.prefab using Guid(dd3bc0f02d254fe4da1b9e1e13a8f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37137be113de9efb37914d3022086809') in 0.019457 seconds 
-  Import took 0.049251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.421012 seconds.
-  path: Assets/prefab/Pteranodon Variant.prefab
-  artifactKey: Guid(dd3bc0f02d254fe4da1b9e1e13a8f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/Pteranodon Variant.prefab using Guid(dd3bc0f02d254fe4da1b9e1e13a8f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a61e6c80c84ed8324dad4bd48fad99') in 0.023041 seconds 
-  Import took 0.058966 seconds .
+Start importing Assets/MobileDinosaurPack/3D_Meshes/Ankylosaurus.fbx using Guid(b040ba9bb63c0154da4b0e1bc1b99ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28795b5d3b29b5e6783c33c83f2f7500') in 0.350744 seconds 
+  Import took 0.354176 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
